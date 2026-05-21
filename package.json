@@ -1,10 +1,22 @@
 {
+  "name": "backend-story",
+  "version": "1.0.0",
+  "description": "Backend cho ứng dụng Nghe Truyện Miễn Phí",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1",
+    "express": "^4.19.2",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.6.2"
+  },
+  "engines": {
+    "node": "18.x || 20.x"
   }
 }
